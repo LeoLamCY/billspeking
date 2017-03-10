@@ -135,4 +135,12 @@ $(document).ready(function() {
     $('#gallery .col-md-4 a').nivoLightbox({
         effect: 'fadeScale',
     });
+
+    $('.footer-9-map').click(function() {
+        $('.footer-9-map iframe').css("pointer-events", "auto");
+    })
+
+    $('.footer-9-map').mouseleave(function() {
+        $('.footer-9-map iframe').css("pointer-events", "none");
+    })
 });

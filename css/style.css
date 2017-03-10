@@ -862,3 +862,7 @@ blockquote p:nth-child(2)::before {
 address {
     font-size: 20px;
 }
+
+.footer-9-map iframe {
+    pointer-events: none;
+}
