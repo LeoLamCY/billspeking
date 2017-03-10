@@ -204,6 +204,10 @@ a:focus {
     position: relative;
 }
 
+.logo {
+    width: 39%;
+}
+
 #home .gradient-overlay {
     background: #000000e6;
     /* fallback for old browsers */
@@ -709,9 +713,18 @@ footer strong {
 
 /* Mobile Responsive */
 
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
 @media (max-width: 980px) {
     #home {
         height: 65vh;
+    }
+    h1 {
+        font-size: 70px;
     }
     #feature .col-md-4:last-child,
     #about .col-md-4 {
@@ -740,6 +753,9 @@ footer strong {
 }
 
 @media (max-width: 767px) {
+    h1 {
+        font-size: 60px;
+    }
     .navbar-default .navbar-brand {
         line-height: 15px;
     }
@@ -761,8 +777,12 @@ footer strong {
     #home {
         height: 100vh;
     }
+    #home img {
+        width: 60%;
+        margin-bottom: 10px;
+    }
     h1 {
-        font-size: 60px;
+        display: none;
     }
     h2 {
         font-size: 30px;
