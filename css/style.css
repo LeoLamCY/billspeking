@@ -209,7 +209,7 @@ a:focus {
 }
 
 #home .gradient-overlay {
-    background: #000000e6;
+    background: rgba(0, 0, 0, 0.9);
     /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to left, #c21500, #ffc500);*/
     /* Chrome 10-25, Safari 5.1-6 */
