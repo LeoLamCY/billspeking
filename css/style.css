@@ -750,6 +750,9 @@ footer strong {
     .navbar-default .navbar-brand {
         line-height: 46px;
     }
+    .side-images img {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -808,6 +811,16 @@ footer strong {
         top: 30%;
         left: 6%;
     }
+
+    .side-images img {
+        display: none;
+    }
+
+    .menu-btn > a {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
     footer {
         text-align: center;
     }
@@ -889,4 +902,13 @@ address {
 
 .menu-btn {
     margin-bottom: 40px;
+}
+
+.menu-btn > a {
+    margin-right: 10px;
+}
+
+.side-images img {
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
